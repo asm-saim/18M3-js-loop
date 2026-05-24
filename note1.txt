@@ -1,0 +1,4 @@
+// const -> value is fixed.
+// let -> value can change.
+// var -> we should avoid this, it's an old version.
+

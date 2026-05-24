@@ -1,0 +1,68 @@
+========================
+JavaScript for...of Loop
+========================
+
+# for Loop
+Used to repeat a task multiple times.
+
+# for...of Loop
+Used to access and print each element of an array one by one.
+
+# Basic Syntax
+for (const item of array) {
+    // code
+}
+
+# Meaning
+- item → current element
+- of → takes elements from array
+- array → source array
+
+# Example 1
+const balls = [23, 45, 2, 45, 77, 88];
+
+console.log(balls);
+
+for (const ball of balls) {
+    console.log(ball);
+}
+
+Output:
+23
+45
+2
+45
+77
+88
+
+# Example 2
+const fruits = ["orange", "Pineapple", "mango", "berry", "guava"];
+
+for (const fruit of fruits) {
+    console.log(fruit);
+}
+
+Output:
+orange
+Pineapple
+mango
+berry
+guava
+
+# Key Learning
+- for...of works mainly with arrays
+- Prints/accesses elements one by one
+- const stores current element temporarily
+
+# Real Life Idea
+for him, for her, for everyone:
+Loop means repeating the same task for multiple items.
+
+# Best Practice
+Use meaningful variable names.
+
+Good:
+for (const fruit of fruits)
+
+Avoid:
+for (const x of fruits)
