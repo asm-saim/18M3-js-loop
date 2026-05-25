@@ -1,0 +1,76 @@
+========================
+JavaScript while Loop
+========================
+
+# Simple if Condition
+const number = 7;
+
+if (number < 1) {
+    console.log("Number is smaller");
+}
+
+console.log("Number is bigger");
+
+Output:
+Number is bigger
+
+Reason:
+- condition is false
+- so if block does not run
+
+# while Loop
+Used to repeat code while a condition is true.
+
+# Basic Syntax
+while (condition) {
+    // loop body
+}
+
+# Example
+let value = 1;
+
+while (value < 10) {
+    console.log("Looping", value);
+    value++;
+}
+
+Output:
+Looping 1
+Looping 2
+Looping 3
+Looping 4
+Looping 5
+Looping 6
+Looping 7
+Looping 8
+Looping 9
+
+# value++
+Shortcut for:
+value = value + 1
+
+Also same as:
+value += 1
+
+# How while Loop Works
+1. Check condition
+2. If true → run code
+3. Increase/decrease value
+4. Repeat until condition becomes false
+
+# Important Note
+Always update the loop variable.
+
+Otherwise:
+- loop may run forever
+- called Infinite Loop
+
+Example:
+while(true) {
+   console.log("Infinite");
+}
+
+# Best Practice
+- Initialize variable before loop
+- Update variable inside loop
+- Keep loop condition clear
