@@ -1,5 +1,5 @@
 // break means -> Iam done with this.
-// continue means -> I am done with this iteration.
+// continue means -> Skips the current iteration and proceeds to the next iteration of the loop.
 
 // for(let i=1; i<=20; i++){
 //     if(i%2===1)

@@ -15,6 +15,9 @@ for (initialization; condition; increment/decrement) {
 2. Condition → loop runs while true
 3. Increment/Decrement → updates value
 
+** for	loop is you already know how many times the loop should run
+** while loop is Used when number of iterations is NOT known beforehand
+
 # while Loop Version
 let num = 1;
 
@@ -75,4 +78,3 @@ Always:
 - set proper condition
 - update loop variable
 
-Otherwise infinite loop may happen.
